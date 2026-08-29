@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# JamBox
 
-## Getting Started
+Public organization site for **JamBox**, an independent app studio in Seoul. Built for `jambox.site` (Vercel) so App Store and Play listings can point at a real company home: apps, address, support, privacy, and terms.
 
-First, run the development server:
+## Local
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Open [http://localhost:3000](http://localhost:3000). English is the default. Use **한국어** in the header for Korean.
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Import this folder as a Next.js project (or push it to GitHub and import the repo).
+2. Production URL should be public. In the project: **Settings → Deployment Protection** — turn **Vercel Authentication** off. Apple will not accept a login wall.
+3. **Settings → Domains** — add `jambox.site` and `www.jambox.site`.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Point Gabia DNS at Vercel
+
+The domain is registered at [Gabia](https://www.gabia.com) (nameservers `ns.gabia.co.kr`). After Vercel lists the domain, in Gabia DNS add:
+
+| Type  | Host | Value                 |
+| ----- | ---- | --------------------- |
+| A     | `@`  | `76.76.21.21`         |
+| CNAME | `www` | `cname.vercel-dns.com` |
+
+Use the exact values Vercel shows if they differ. Propagation can take a few minutes to a few hours. Then `https://jambox.site` should serve this site with HTTPS.
+
+## App Store notes
+
+This site is meant to satisfy Apple’s organization website check: public, functional, named **JamBox**, with headquarters address, contact, support, and privacy. Apple also prefers a work email on the same domain (for example `hello@jambox.site`) in addition to the mailbox already listed on the site.
