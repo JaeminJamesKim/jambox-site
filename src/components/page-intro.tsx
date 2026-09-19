@@ -27,7 +27,7 @@ export function PageIntro({
 export function LegalArticle({
   t,
 }: {
-  t: Dictionary["privacy"] | Dictionary["terms"];
+  t: Dictionary["privacy"] | Dictionary["terms"] | Dictionary["sharelogPrivacy"];
 }) {
   const sections = [
     ["s1Title", "s1Body"],

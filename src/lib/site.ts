@@ -17,5 +17,12 @@ export const site = {
       android:
         "https://play.google.com/store/apps/details?id=com.boardhub.boardhub_20251010",
     },
+    sharelog: {
+      name: "Sharelog",
+      android:
+        "https://play.google.com/store/apps/details?id=com.jambox.sharelog",
+      support: "info@jambox.site",
+      privacy: "/apps/sharelog/privacy",
+    },
   },
 } as const;

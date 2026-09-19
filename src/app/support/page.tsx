@@ -19,7 +19,7 @@ export default async function SupportPage() {
         title={t.support.title}
         lede={t.support.lede}
       />
-      <div className="mx-auto grid max-w-6xl gap-6 px-5 py-14 sm:px-8 md:grid-cols-3">
+      <div className="mx-auto grid max-w-6xl gap-6 px-5 py-14 sm:px-8 md:grid-cols-2 lg:grid-cols-4">
         <article className="rounded-3xl border border-line bg-paper p-6">
           <h2 className="font-display text-xl font-semibold text-ink">
             {t.support.emailTitle}
@@ -46,6 +46,20 @@ export default async function SupportPage() {
             href="/apps/boardhood"
           >
             Boardhood
+          </Link>
+        </article>
+        <article className="rounded-3xl border border-line bg-paper p-6">
+          <h2 className="font-display text-xl font-semibold text-ink">
+            {t.support.sharelogTitle}
+          </h2>
+          <p className="mt-3 text-sm leading-6 text-ink-soft">
+            {t.support.sharelogBody}
+          </p>
+          <Link
+            className="mt-5 inline-flex text-sm font-semibold text-jam hover:text-jam-deep"
+            href="/apps/sharelog/privacy"
+          >
+            Sharelog
           </Link>
         </article>
         <article className="rounded-3xl border border-line bg-paper p-6">

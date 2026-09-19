@@ -36,6 +36,11 @@ export function SiteFooter({ t }: { t: Dictionary }) {
               </Link>
             </li>
             <li>
+              <Link className="text-ink hover:text-jam" href="/apps/sharelog">
+                Sharelog
+              </Link>
+            </li>
+            <li>
               <Link className="text-ink hover:text-jam" href="/about">
                 {t.nav.about}
               </Link>

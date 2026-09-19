@@ -6,6 +6,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "",
     "/apps",
     "/apps/boardhood",
+    "/apps/sharelog",
+    "/apps/sharelog/privacy",
     "/about",
     "/support",
     "/contact",
