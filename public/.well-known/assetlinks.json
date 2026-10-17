@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.jambox.sharelog",
+      "sha256_cert_fingerprints": [
+        "EC:61:EA:68:17:45:8E:A6:E8:76:E0:FF:39:C5:DC:5A:2A:B6:79:2C:91:0F:D6:C6:4C:EB:BC:D2:18:F5:0B:F8"
+      ]
+    }
+  }
+]

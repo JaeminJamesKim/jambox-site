@@ -99,6 +99,14 @@
     "terms": "Terms of use",
     "support": "Get support"
   },
+  "sharelogInvite": {
+    "title": "Open in Sharelog",
+    "body": "This link opens in Sharelog and is saved to your trail.",
+    "open": "Open in Sharelog",
+    "store": "Get Sharelog",
+    "hint": "If you just installed Sharelog, tap Open in Sharelog again.",
+    "iosSoon": "Sharelog for iPhone is coming to the App Store. After you install it, open this link again."
+  },
   "about": {
     "kicker": "Studio",
     "title": "About JamBox",
