@@ -6,7 +6,11 @@ import { site } from "@/lib/site";
 
 export async function generateMetadata(): Promise<Metadata> {
   const { t } = await getDictionary();
-  return { title: t.sharelog.title, description: t.sharelog.lede };
+  return {
+    title: t.sharelog.title,
+    description: t.sharelog.lede,
+    itunes: { appId: "6815770283" },
+  };
 }
 
 export default async function SharelogPage() {
@@ -30,6 +34,12 @@ export default async function SharelogPage() {
           className="inline-flex rounded-full bg-ink px-5 py-2.5 text-sm font-semibold text-paper hover:bg-ink/90"
         >
           {t.sharelog.playStore}
+        </a>
+        <a
+          href={site.apps.sharelog.ios}
+          className="inline-flex rounded-full border border-line bg-paper px-5 py-2.5 text-sm font-semibold text-ink hover:bg-cream"
+        >
+          {t.sharelog.appStore}
         </a>
       </div>
 

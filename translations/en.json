@@ -86,6 +86,7 @@
     "title": "Sharelog",
     "lede": "A private log of every link you share — to yourself and to others. One tap from Instagram, X, TikTok, or any app, saved on this device.",
     "playStore": "Google Play",
+    "appStore": "App Store",
     "featuresTitle": "What it holds",
     "featureTrailTitle": "Your trail",
     "featureTrailBody": "Shares land in one feed: All, To me, and To others. Add notes, memos, and categories, then search when you need them again.",
@@ -105,7 +106,7 @@
     "open": "Open in Sharelog",
     "store": "Get Sharelog",
     "hint": "If you just installed Sharelog, tap Open in Sharelog again.",
-    "iosSoon": "Sharelog for iPhone is coming to the App Store. After you install it, open this link again."
+    "iosSoon": "If you just installed Sharelog, tap Open in Sharelog again."
   },
   "about": {
     "kicker": "Studio",

@@ -21,6 +21,7 @@ export const site = {
       name: "Sharelog",
       android:
         "https://play.google.com/store/apps/details?id=com.jambox.sharelog",
+      ios: "https://apps.apple.com/app/id6815770283",
       support: "info@jambox.site",
       privacy: "/apps/sharelog/privacy",
     },

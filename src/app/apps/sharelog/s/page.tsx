@@ -11,6 +11,7 @@ export async function generateMetadata(): Promise<Metadata> {
     title: t.sharelogInvite.title,
     description: t.sharelogInvite.body,
     robots: { index: false, follow: false },
+    itunes: { appId: "6815770283" },
   };
 }
 
@@ -28,12 +29,12 @@ export default async function SharelogInvitePage() {
         <Suspense>
           <SharelogInviteActions
             playStoreUrl={site.apps.sharelog.android}
-            iosAppStoreId=""
+            appStoreUrl={site.apps.sharelog.ios}
             copy={{
               open: t.sharelogInvite.open,
-              store: t.sharelogInvite.store,
+              playStore: t.sharelog.playStore,
+              appStore: t.sharelog.appStore,
               hint: t.sharelogInvite.hint,
-              iosSoon: t.sharelogInvite.iosSoon,
             }}
           />
         </Suspense>

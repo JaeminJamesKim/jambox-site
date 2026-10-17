@@ -86,6 +86,7 @@
     "title": "Sharelog",
     "lede": "나에게, 그리고 다른 사람에게 보낸 모든 링크의 비공개 기록. 인스타그램, X, 틱톡 등 어떤 앱에서든 한 번이면, 이 기기에 남습니다.",
     "playStore": "Google Play",
+    "appStore": "App Store",
     "featuresTitle": "담겨 있는 것",
     "featureTrailTitle": "기록",
     "featureTrailBody": "공유가 하나의 피드에 모입니다. 전체, 나에게, 다른 사람에게. 메모와 분류를 붙이고, 필요할 때 검색하세요.",
@@ -105,7 +106,7 @@
     "open": "Sharelog에서 열기",
     "store": "Sharelog 설치",
     "hint": "방금 설치했다면 ‘Sharelog에서 열기’를 다시 눌러 주세요.",
-    "iosSoon": "Sharelog 아이폰 버전은 App Store에 곧 올라갑니다. 설치한 뒤 이 링크를 다시 열어 주세요."
+    "iosSoon": "방금 설치했다면 ‘Sharelog에서 열기’를 다시 눌러 주세요."
   },
   "about": {
     "kicker": "스튜디오",
