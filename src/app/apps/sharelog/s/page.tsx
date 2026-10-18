@@ -40,7 +40,33 @@ export default async function SharelogInvitePage() {
     return;
   }
   if (ios) {
-    location.replace(apple);
+    var appUri = "sharelog://s" + q;
+    var left = false;
+    var deadline = Date.now() + 1600;
+    function markLeft() { left = true; }
+    document.addEventListener("visibilitychange", function () {
+      if (document.visibilityState === "hidden") markLeft();
+    });
+    window.addEventListener("pagehide", markLeft);
+    window.addEventListener("blur", function () {
+      deadline = Date.now() + 2500;
+    });
+    location.href = appUri;
+    if (document.body) {
+      var opener = document.createElement("a");
+      opener.href = appUri;
+      document.body.appendChild(opener);
+      opener.click();
+    }
+    function finish() {
+      if (left || document.visibilityState === "hidden") return;
+      if (Date.now() < deadline) {
+        setTimeout(finish, 200);
+        return;
+      }
+      location.replace(apple);
+    }
+    setTimeout(finish, 200);
     return;
   }
   document.documentElement.setAttribute("data-invite", "desktop");
