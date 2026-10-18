@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { headers } from "next/headers";
 import { Fraunces, Noto_Sans_KR, Plus_Jakarta_Sans } from "next/font/google";
 import { OrganizationJsonLd } from "@/components/organization-json-ld";
 import { SiteShell } from "@/components/site-shell";
@@ -70,6 +71,10 @@ export default async function RootLayout({
   children: React.ReactNode;
 }>) {
   const { locale, t } = await getDictionary();
+  const pathname = (await headers()).get("x-pathname") ?? "";
+  const bareInvite =
+    pathname === "/apps/sharelog/s" ||
+    pathname.startsWith("/apps/sharelog/s/");
 
   return (
     <html
@@ -77,10 +82,16 @@ export default async function RootLayout({
       className={`${fraunces.variable} ${plusJakarta.variable} ${noto.variable} h-full antialiased`}
     >
       <body className="min-h-full bg-cream font-sans text-ink">
-        <OrganizationJsonLd />
-        <SiteShell locale={locale} t={t}>
-          {children}
-        </SiteShell>
+        {bareInvite ? (
+          children
+        ) : (
+          <>
+            <OrganizationJsonLd />
+            <SiteShell locale={locale} t={t}>
+              {children}
+            </SiteShell>
+          </>
+        )}
       </body>
     </html>
   );
