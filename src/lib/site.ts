@@ -25,5 +25,8 @@ export const site = {
       support: "info@jambox.site",
       privacy: "/apps/sharelog/privacy",
     },
+    coffeenchat: {
+      name: "Coffee & Chat",
+    },
   },
 } as const;

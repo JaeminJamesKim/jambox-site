@@ -41,6 +41,11 @@ export function SiteFooter({ t }: { t: Dictionary }) {
               </Link>
             </li>
             <li>
+              <Link className="text-ink hover:text-jam" href="/apps/coffeenchat">
+                {site.apps.coffeenchat.name}
+              </Link>
+            </li>
+            <li>
               <Link className="text-ink hover:text-jam" href="/about">
                 {t.nav.about}
               </Link>
