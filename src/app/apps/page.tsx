@@ -38,8 +38,8 @@ export default async function AppsPage() {
         </article>
 
         <article className="flex flex-col rounded-[1.75rem] border border-line bg-paper p-7">
-          <span className="w-fit rounded-full bg-wood/25 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-ink-soft">
-            {t.appsPage.coming}
+          <span className="w-fit rounded-full bg-forest/12 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-forest-deep">
+            {t.sharelog.availability}
           </span>
           <h2 className="font-display mt-5 text-3xl font-semibold text-ink">
             Sharelog

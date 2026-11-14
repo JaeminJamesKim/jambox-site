@@ -28,7 +28,10 @@ export default async function SharelogPage() {
         title={t.sharelog.title}
         lede={t.sharelog.lede}
       />
-      <div className="mx-auto flex max-w-3xl flex-wrap gap-3 px-5 pt-6 sm:px-8">
+      <p className="mx-auto max-w-3xl px-5 pt-6 text-sm font-semibold text-forest-deep sm:px-8">
+        {t.sharelog.availability}
+      </p>
+      <div className="mx-auto flex max-w-3xl flex-wrap gap-3 px-5 pt-4 sm:px-8">
         <a
           href={site.apps.sharelog.android}
           className="inline-flex rounded-full bg-ink px-5 py-2.5 text-sm font-semibold text-paper hover:bg-ink/90"

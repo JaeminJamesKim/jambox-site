@@ -52,7 +52,6 @@
     "title": "JamBox의 앱",
     "body": "천천히, 몇 가지를 만들고, 그 뒤에 섭니다. 이미 나와 있는 제품과 아직 작업대 위에 있는 일이 나란히 있습니다.",
     "live": "이용 가능",
-    "coming": "Google Play 준비 중",
     "lab": "스튜디오에서",
     "boardhoodSummary": "플레이어를 찾고, 룸을 열고, 매치를 기록하고, 컬렉션을 지키세요. 보드게임 커뮤니티를 한 앱에 담았습니다.",
     "boardhoodCta": "Boardhood 자세히",
@@ -86,6 +85,7 @@
   "sharelog": {
     "kicker": "JamBox 앱",
     "title": "Sharelog",
+    "availability": "iOS와 Android에서 지금 이용 가능",
     "lede": "나에게, 그리고 다른 사람에게 보낸 모든 링크의 비공개 기록. 인스타그램, X, 틱톡 등 어떤 앱에서든 한 번이면, 이 기기에 남습니다.",
     "playStore": "Google Play",
     "appStore": "App Store",

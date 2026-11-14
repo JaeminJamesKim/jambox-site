@@ -52,7 +52,6 @@
     "title": "Apps from JamBox",
     "body": "We ship a few things, slowly, and we stand behind them. Live products sit beside work still on the table.",
     "live": "Available now",
-    "coming": "Coming to Google Play",
     "lab": "In the studio",
     "boardhoodSummary": "Find players, host rooms, track matches, and keep your collection — a board game community in one app.",
     "boardhoodCta": "Boardhood details",
@@ -86,6 +85,7 @@
   "sharelog": {
     "kicker": "JamBox app",
     "title": "Sharelog",
+    "availability": "Available now on iOS and Android",
     "lede": "A private log of every link you share — to yourself and to others. One tap from Instagram, X, TikTok, or any app, saved on this device.",
     "playStore": "Google Play",
     "appStore": "App Store",
