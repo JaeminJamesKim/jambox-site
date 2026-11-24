@@ -55,7 +55,7 @@
     "lab": "In the studio",
     "boardhoodSummary": "Find players, host rooms, track matches, and keep your collection — a board game community in one app.",
     "boardhoodCta": "Boardhood details",
-    "sharelogSummary": "A private trail of every link you share — to yourself and to others. Saved on this device.",
+    "sharelogSummary": "Save links on your device, optionally sync your private trail, and share selected content in shared folders.",
     "sharelogCta": "Sharelog details",
     "coffeenchatSummary": "Professional connections that turn into conversations over coffee, in person or online.",
     "coffeenchatCta": "Coffee & Chat details",
@@ -86,21 +86,24 @@
     "kicker": "JamBox app",
     "title": "Sharelog",
     "availability": "Available now on iOS and Android",
-    "lede": "A private log of every link you share — to yourself and to others. One tap from Instagram, X, TikTok, or any app, saved on this device.",
+    "lede": "A personal trail of the links and text you save. Capture on your device, sign in for shared folders, and choose whether to sync your private trail across devices.",
     "playStore": "Google Play",
     "appStore": "App Store",
     "featuresTitle": "What it holds",
     "featureTrailTitle": "Your trail",
     "featureTrailBody": "Shares land in one feed: All, To me, and To others. Add notes, memos, and categories, then search when you need them again.",
-    "featurePrivateTitle": "On this device",
-    "featurePrivateBody": "Sharelog is local-first. The share itself never waits on a network. Previews may load in the background from the original page.",
+    "featurePrivateTitle": "Local saves, optional sync",
+    "featurePrivateBody": "Use a guest trail without an account. Sign in with Google, Apple, or Kakao for account features, then explicitly enable private sync or import guest saves when you choose.",
     "featureExportTitle": "Export and import",
-    "featureExportBody": "Take your trail with you as a JSON file, or merge one back in. Deleting the app removes what was stored on that device.",
+    "featureExportBody": "Export or import your trail as JSON. Uninstalling the app does not delete an account or cloud data; use account deletion for that.",
     "supportTitle": "Support and policies",
-    "supportBody": "Sharelog is designed by JamBox. Privacy for this app is posted here so Google Play, Apple, and anyone you share the listing with can read the same words.",
+    "supportBody": "Read how local saves, sign-in, private sync, and shared folders use your information. You can also request account and associated-data deletion without installing the app.",
     "privacy": "Sharelog privacy",
     "terms": "Terms of use",
-    "support": "Get support"
+    "support": "Get support",
+    "featureSharedTitle": "Shared folders",
+    "featureSharedBody": "Collect selected links with other members. Shared items show who added them; personal notes and read status stay separate from the shared record.",
+    "deleteAccount": "Delete your Sharelog account"
   },
   "coffeenchat": {
     "kicker": "JamBox app · Professional connections",
@@ -159,7 +162,7 @@
     "boardhoodTitle": "Boardhood",
     "boardhoodBody": "Match rooms, collections, sign-in, and notifications are handled from the same inbox. We also publish privacy and terms for Boardhood on this site.",
     "sharelogTitle": "Sharelog",
-    "sharelogBody": "Sharelog keeps your trail on the device. For that app, write to info@jambox.site. The Sharelog privacy policy is on this site.",
+    "sharelogBody": "Sharelog supports guest saves, optional sign-in and private sync, and shared folders. Contact info@jambox.site for help, privacy questions, or account deletion.",
     "responseTitle": "What to expect",
     "responseBody": "We are a small studio. We aim to reply within a few business days. We do not ask for passwords, and we will never require you to install software to receive help."
   },
@@ -173,20 +176,20 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "updated": "Last updated: August 29, 2026",
+    "updated": "Last updated: November 24, 2026",
     "intro": "This policy describes how JamBox (“JamBox”, “we”, “us”) collects, uses, and shares information when you use jambox.site and our applications, including Boardhood and Sharelog. It is written for people, not only for lawyers. Sharelog has an additional, app-specific policy at https://jambox.site/apps/sharelog/privacy.",
     "s1Title": "Who we are",
     "s1Body": "JamBox is an independent app studio. Registered address: 90, Magokjungang 8-ro, Gangseo-gu, Seoul, Republic of Korea. Contact: jaminthebox1226@gmail.com.",
     "s2Title": "This website",
     "s2Body": "jambox.site is a public organization website. We do not require an account to read it. Standard server logs (such as IP address, browser type, and pages requested) may be processed by our hosting provider to operate, secure, and understand traffic to the site. We do not sell website visitor data.",
     "s3Title": "Boardhood and other JamBox apps",
-    "s3Body": "When you download and use a JamBox application, we may collect information such as your device’s IP address, pages or screens you visit, time spent, operating system, and — where you choose to create an account — identifiers you provide such as email and user ID. Boardhood also uses device location to power nearby rooms, maps, and related recommendations. Sharelog does not use an account or cloud backup: links, notes, and categories stay on your device, as explained at https://jambox.site/apps/sharelog/privacy. We do not use our apps to knowingly solicit data from children under 13.",
+    "s3Body": "When you use a JamBox application, the data processed depends on the app and features you choose. Boardhood may process device and usage information, account identifiers, and device location for nearby rooms and maps. Sharelog supports local guest saves, optional Google, Apple or Kakao sign-in, optional private cloud sync, and shared folders. Its account, content, technical-data and deletion practices are described in the Sharelog Privacy Policy at https://jambox.site/apps/sharelog/privacy. We do not knowingly solicit data from children under 13.",
     "s4Title": "How we use information",
     "s4Body": "We use information to provide the product you asked for, to keep accounts secure, to send service notices, to understand aggregated usage so we can improve the apps, and to respond when you contact us. Location in Boardhood is used for geolocation features, anonymized analytics, and, at times, transmission of anonymized location data to service providers who help us operate the app.",
     "s5Title": "Third-party services",
     "s5Body": "Our applications may use third-party infrastructure that has its own privacy policies, including Google Play Services, Google Analytics for Firebase, and Firebase Crashlytics. We may disclose information when required by law, to protect safety or rights, or to trusted processors who may only use the data to provide services to JamBox.",
     "s6Title": "Retention, access, and deletion",
-    "s6Body": "We keep account data while you use the app and for a reasonable period afterward. To request deletion of information you provided, email jaminthebox1226@gmail.com. You can also stop further collection from an app by uninstalling it.",
+    "s6Body": "Retention and deletion depend on the application. Uninstalling an app does not delete an online account or cloud data. For Sharelog, see https://jambox.site/apps/sharelog/delete-account to request account and associated-data deletion, including information about retained deletion records. For other JamBox privacy requests, contact jaminthebox1226@gmail.com.",
     "s7Title": "Children",
     "s7Body": "JamBox apps are not directed at children under 13. If we learn that a child under 13 has provided personal information, we will delete it. Parents or guardians may contact us at the email above.",
     "s8Title": "Changes",
@@ -196,26 +199,104 @@
   },
   "sharelogPrivacy": {
     "title": "Sharelog Privacy Policy",
-    "updated": "Last updated: September 20, 2026",
-    "intro": "This policy explains how Sharelog, a JamBox app, stores information. Sharelog is local-first: your trail stays on your device unless you export it yourself.",
-    "s1Title": "Who we are",
-    "s1Body": "Sharelog is operated by JamBox. Registered address: 90, Magokjungang 8-ro, Gangseo-gu, Seoul, Republic of Korea. Sharelog support: info@jambox.site.",
-    "s2Title": "What Sharelog is",
-    "s2Body": "Sharelog keeps a private log of links and posts you choose to share to it. Saving a share is meant to be instant. Sharelog writes it first, then may load a preview in the background.",
-    "s3Title": "What stays on this device",
-    "s3Body": "Your trail (links, titles, notes, categories, read state, destination, and photos you save) and your settings (theme, language, defaults) are stored on this device. JamBox does not operate a Sharelog account, sign-in, or cloud backup.",
-    "s4Title": "When Sharelog uses the network",
-    "s4Body": "When you save a link, Sharelog may request a preview — title, description, or image — from that page or from public preview services used by that site. Preview images may be cached on the device. Opening the original or using Share sends you to that site or to the system share sheet. jambox.site is a separate website and may process standard server logs as described in the studio privacy policy.",
-    "s5Title": "What we do not do",
-    "s5Body": "Sharelog does not sell your data, does not show ads in the app, and does not use your trail for cross-app tracking. It does not require an account.",
-    "s6Title": "Children",
-    "s6Body": "Sharelog is not directed at children under 13, or the equivalent minimum age in your country.",
-    "s7Title": "Deletion",
-    "s7Body": "You can delete individual shares or delete all shares from Settings. Uninstalling Sharelog removes data stored on that device.",
-    "s8Title": "Changes",
-    "s8Body": "We may update this policy. The current version is posted at https://jambox.site/apps/sharelog/privacy. The date above is the latest revision.",
-    "s9Title": "Contact",
-    "s9Body": "Questions: info@jambox.site. Postal: JamBox, 90, Magokjungang 8-ro, Gangseo-gu, Seoul, Republic of Korea."
+    "updated": "Last updated: November 24, 2026",
+    "intro": "This policy covers Sharelog, operated by JamBox, including local guest saves, optional accounts, private cloud sync, and shared folders. The information processed depends on the features you use.",
+    "deletionTitle": "Account and data deletion",
+    "deletionBody": "Request deletion in the app or by email. The public request page works without signing in or reinstalling Sharelog.",
+    "contents": "In this policy",
+    "providerPrivacy": "Firebase privacy and retention information",
+    "contactLabel": "Privacy contact",
+    "sections": [
+      {
+        "id": "operator",
+        "title": "Who we are",
+        "paragraphs": [
+          "Sharelog is operated by JamBox, 90, Magokjungang 8-ro, Gangseo-gu, Seoul, Republic of Korea. For privacy questions, access or correction requests, and deletion support, contact info@jambox.site."
+        ]
+      },
+      {
+        "id": "local-data",
+        "title": "Guest use and data on your device",
+        "paragraphs": [
+          "You can save and organize links and text without an account. Guest saves, local photos, cached preview images, and app settings are kept on the device. Signing in opens a separate account trail; it does not automatically import or upload your guest saves. Importing guest saves and enabling private sync are explicit choices.",
+          "Sharelog can check the foreground clipboard for a link to offer a save prompt. The link is not added to your trail until you confirm. The last handled clipboard link may be stored locally to avoid repeated prompts, even if you dismiss the save. Files you choose to import or export are processed on the device; exported copies are under your control. Device or operating-system backups may retain local copies according to your backup settings."
+        ]
+      },
+      {
+        "id": "accounts",
+        "title": "Optional sign-in and account information",
+        "paragraphs": [
+          "Google, Apple, or Kakao sign-in is used for account features such as shared folders and private sync. Your chosen provider and Firebase Authentication process sign-in credentials, provider identifiers, a Sharelog user ID, and profile information supplied by the provider, such as a display name, email address, or profile-image URL. You can edit your display name in Sharelog.",
+          "We use this information to authenticate you, link your chosen sign-in methods, manage your account, and attribute contributions in shared folders. Sharelog’s server verifies Kakao credentials. We do not ask you to email a provider password or verification code."
+        ]
+      },
+      {
+        "id": "private-sync",
+        "title": "Optional private cloud sync",
+        "paragraphs": [
+          "When you enable private sync, Firebase Cloud Firestore stores your account’s saved URLs and text, titles, descriptions, source and preview-image URLs, notes, categories, read status, and record identifiers and timestamps. This makes your private trail available on devices signed in to the same account.",
+          "Local photo files, downloaded image files, and device file paths are not uploaded by private sync. Turning sync off stops syncing on that device; it does not delete previously uploaded data. Signing out and uninstalling also do not delete your cloud trail."
+        ]
+      },
+      {
+        "id": "sharing",
+        "title": "Shared folders, invitations, and links you send",
+        "paragraphs": [
+          "Shared-folder data includes folder names, ownership and membership identifiers, display names, shared URLs and preview metadata, contributor attribution, and timestamps. Folder members can see shared content and attribution. Personal notes and read status are not included in shared item records; folder-specific notes, read status, and visibility preferences remain on your device in this version.",
+          "Anyone holding a valid folder invitation can preview the folder name, owner, and member count, then sign in and choose to join. Invitations can be revoked and normally expire after seven days.",
+          "One-time Sharelog links contain the selected link or saved text, an optional title and category, and a receipt identifier. They do not contain your private note field. These links are encoded, not encrypted: anyone receiving or forwarding one can read its contents. Recipients may retain their own copies even if you later delete your account."
+        ]
+      },
+      {
+        "id": "services",
+        "title": "Network requests and service providers",
+        "paragraphs": [
+          "Firebase Authentication, Cloud Firestore, and Cloud Functions process account and cloud-feature data on JamBox’s behalf. Authentication and service requests may also process IP addresses, app and device information, service identifiers or tokens, and operational information to deliver the service and prevent abuse. Google, Apple, and Kakao process sign-in information under their own policies. Data may be processed outside your country.",
+          "Link previews and images are requested from the original website or public preview services. Those services receive the requested URL and ordinary connection information such as your IP address. Opening an original link sends you to that website. Sharing or exporting sends the content you select to your chosen destination. Share links include their content in the URL, which the link-hosting service receives; the Android install link can pass that payload through Google Play’s install-referrer service. The JamBox website may process standard server logs.",
+          "The app can request fonts from Google and check for updates through Google Play or Apple’s app services. These requests can include ordinary connection, device, app, or storefront information. These providers process requests under their own privacy policies.",
+          "We use the information to provide saves, sync and collaboration, manage and secure accounts, and respond to support or deletion requests. Sharelog does not sell your data, show in-app advertisements, or use your trail for cross-app advertising."
+        ]
+      },
+      {
+        "id": "security",
+        "title": "How cloud data is protected",
+        "paragraphs": [
+          "Account, private-sync, and shared-folder connections to Firebase use encrypted transport. Access controls restrict private cloud records to the account and shared-folder records to authorized members. This is not end-to-end encryption. Original websites and preview services control their own connections and policies; a saved web address can use HTTP rather than HTTPS."
+        ]
+      },
+      {
+        "id": "deletion",
+        "title": "Your choices and deletion",
+        "paragraphs": [
+          "Delete individual saves or open Settings → About → Delete all shares to clear personal saves for the active guest or account trail. With private sync enabled, those deletions sync to your other account devices. This does not delete shared folders or your account. Turning off sync is not a deletion request.",
+          "In the app, open Settings → Account → Delete account. Owned shared folders must first be transferred or deleted; the app checks this before confirming deletion and may ask you to sign in again. You can also request deletion through the public account-deletion page without installing or signing in to the app.",
+          "Account deletion removes the account profile and sign-in identity links, private cloud data, folder memberships, and your own shared-folder contributions. Contributions from other members remain in folders that continue to exist. After verifying deletion, the app clears the current account’s local records, settings, folder cache, and pending captures. Cached image or media files, other devices, and exports can retain copies. Uninstalling alone does not delete the account or cloud data."
+        ]
+      },
+      {
+        "id": "retention",
+        "title": "What is retained and for how long",
+        "paragraphs": [
+          "Account and cloud content is kept until you delete it or request account deletion. Minimal records of deleted accounts and items, including identifiers and timestamps, are retained indefinitely to prevent old sessions, devices, or retried operations from restoring deleted data. These deletion records are separate from saved content; deleted URLs, text, notes, and category names are removed.",
+          "Firebase describes a separate cleanup period for authentication data: after deletion is initiated, it removes that data from live and backup systems within 180 days, and retains authentication IP logs for a few weeks. Other provider security and operational records follow the applicable provider retention policies. Copies you exported, operating-system backups, or copies kept by recipients are outside Sharelog’s account-deletion process.",
+          "If you email us, we use your contact information and request details to verify ownership and carry out the request. We complete email deletion requests within 30 days after account ownership is verified and any owned shared folders are transferred or deleted. We confirm the steps and completion by email. The separate provider cleanup periods described above can continue afterward."
+        ]
+      },
+      {
+        "id": "children",
+        "title": "Children",
+        "paragraphs": [
+          "Sharelog is not directed at children under 13 or the equivalent minimum age in their country. If you believe a child has supplied personal information, contact info@jambox.site so we can investigate and arrange deletion."
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "Policy changes and contact",
+        "paragraphs": [
+          "We update this policy when Sharelog’s data practices change. The date above identifies the current version. Questions or requests about your information can be sent to info@jambox.site."
+        ]
+      }
+    ]
   },
   "terms": {
     "title": "Terms of Use",
@@ -245,5 +326,32 @@
     "title": "This page is not in the box.",
     "body": "The address may be wrong, or the page has moved.",
     "cta": "Back to JamBox"
+  },
+  "sharelogDeletion": {
+    "title": "Delete your Sharelog account",
+    "kicker": "Sharelog · JamBox",
+    "lede": "Request deletion of your Sharelog account and its associated data. You can use this page without signing in, installing, or reopening the app.",
+    "emailTitle": "Request deletion by email",
+    "emailBody": "Send your request to info@jambox.site. Include the sign-in provider you used and the email address associated with your account, if one was supplied. A Sharelog user ID is helpful if you already know it, but is not required to send a request. If you cannot access that email or your account, explain that so we can help verify ownership.",
+    "emailAction": "Email an account deletion request",
+    "emailSubject": "Sharelog account deletion request",
+    "emailTemplate": "Hello JamBox,\n\nPlease delete my Sharelog account and its associated data.\n\nSign-in provider (Google, Apple, or Kakao):\nAccount email, if available:\nSharelog user ID, if known (optional):\nOwned shared folders or access problems, if any:\n",
+    "emailFallback": "If the button does not open an email app, write to the address below from your email service with the subject “Sharelog account deletion request”. Opening the email draft does not send it; send the message to submit your request.",
+    "verificationTitle": "What happens next",
+    "verificationBody": "We verify that the account belongs to you before deleting data. Never send passwords, verification codes, or access tokens. We complete your request within 30 days after ownership is verified and any owned shared folders are resolved, and confirm completion by email. If you own shared folders, their ownership must be transferred or the folders deleted; tell us in your request so we can help resolve this without requiring an app reinstall. Provider cleanup periods described below can continue after we complete the request.",
+    "inAppTitle": "You can also delete in the app",
+    "inAppBody": "Open Settings → Account → Delete account. Resolve any owned shared folders, confirm deletion, and complete the requested sign-in verification. Signing out, turning off sync, or uninstalling the app does not delete the account.",
+    "removedTitle": "Data removed",
+    "removedItems": [
+      "Your Sharelog account profile and connected sign-in identities, including the Firebase Authentication account.",
+      "Your private cloud trail: saved links and text, notes, categories, read state, and associated account records.",
+      "Your shared-folder memberships and your own shared-folder contributions. Other members’ contributions remain in folders that continue to exist."
+    ],
+    "retainedTitle": "Data that can remain",
+    "retainedBody": "Minimal deletion records containing identifiers and timestamps remain indefinitely to block old sessions and prevent deleted content from being restored. Deleted saved content is removed from those records. Firebase’s authentication cleanup can take up to 180 days across its live and backup systems; authentication IP logs are kept for a few weeks. Other provider operational records follow their retention policies. Exported files, operating-system backups, offline device copies, and copies held by recipients are not remotely erased by this request.",
+    "localTitle": "Local data and other services",
+    "localBody": "After verifying deletion, the app clears the current account’s local records, settings, folder cache, and pending captures. Cached image or media files may remain. An email request cannot remotely erase files from an offline device, your guest trail, or exports. Remove those copies separately if needed. Deleting your Sharelog account does not delete your Google, Apple, or Kakao account.",
+    "privacyLink": "Read the Sharelog Privacy Policy",
+    "providerLink": "Firebase retention details"
   }
 }

@@ -8,6 +8,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/apps/boardhood",
     "/apps/sharelog",
     "/apps/sharelog/privacy",
+    "/apps/sharelog/delete-account",
     "/apps/coffeenchat",
     "/about",
     "/support",

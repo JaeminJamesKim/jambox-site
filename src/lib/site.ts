@@ -24,6 +24,7 @@ export const site = {
       ios: "https://apps.apple.com/app/id6815770283",
       support: "info@jambox.site",
       privacy: "/apps/sharelog/privacy",
+      deletion: "/apps/sharelog/delete-account",
     },
     coffeenchat: {
       name: "Coffee & Chat",

@@ -19,6 +19,7 @@ export default async function SharelogPage() {
     [t.sharelog.featureTrailTitle, t.sharelog.featureTrailBody],
     [t.sharelog.featurePrivateTitle, t.sharelog.featurePrivateBody],
     [t.sharelog.featureExportTitle, t.sharelog.featureExportBody],
+    [t.sharelog.featureSharedTitle, t.sharelog.featureSharedBody],
   ];
 
   return (
@@ -50,7 +51,7 @@ export default async function SharelogPage() {
         <h2 className="font-display text-2xl font-semibold text-ink">
           {t.sharelog.featuresTitle}
         </h2>
-        <div className="mt-8 grid gap-5 md:grid-cols-3">
+        <div className="mt-8 grid gap-5 md:grid-cols-2">
           {features.map(([title, body]) => (
             <article
               key={title}
@@ -78,6 +79,9 @@ export default async function SharelogPage() {
           </Link>
           <Link className="text-jam hover:text-jam-deep" href="/terms">
             {t.sharelog.terms}
+          </Link>
+          <Link className="text-jam hover:text-jam-deep" href={site.apps.sharelog.deletion}>
+            {t.sharelog.deleteAccount}
           </Link>
           <a
             className="text-jam hover:text-jam-deep"

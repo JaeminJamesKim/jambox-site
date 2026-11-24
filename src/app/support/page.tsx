@@ -61,6 +61,12 @@ export default async function SupportPage() {
           >
             Sharelog
           </Link>
+          <Link
+            className="mt-3 block text-sm font-semibold text-jam hover:text-jam-deep"
+            href={site.apps.sharelog.deletion}
+          >
+            {t.sharelog.deleteAccount}
+          </Link>
         </article>
         <article className="rounded-3xl border border-line bg-paper p-6">
           <h2 className="font-display text-xl font-semibold text-ink">

@@ -77,6 +77,11 @@ export function SiteFooter({ t }: { t: Dictionary }) {
                 {t.nav.terms}
               </Link>
             </li>
+            <li>
+              <Link className="text-ink hover:text-jam" href={site.apps.sharelog.deletion}>
+                {t.sharelog.deleteAccount}
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
